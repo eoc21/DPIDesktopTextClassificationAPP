@@ -32,7 +32,7 @@ public class TextClassificationApplication extends JFrame {
         center.add(new JLabel("Classify text"));
         center.add(submit);
         resultText = new JTextField();
-        resultText.setSize(20, 5);
+        resultText.setSize(50, 5);
         center.add(resultText);
         center.setVisible(true);
         add(center);
