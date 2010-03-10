@@ -25,7 +25,7 @@ public class ClassifyTextClickHandler implements MouseListener {
 			String bestCategory = jc.bestCategory();
 			String details = jc.toString();
 			TextClassificationApplication.setClassification(bestCategory);
-			System.out.println(bestCategory);
+		//	System.out.println(bestCategory);
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
